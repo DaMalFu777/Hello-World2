@@ -6,7 +6,7 @@ phases:
       - npm install
   build:
     commands:
-      - npx ng build --prod
+      - ng build --configuration production
 artifacts:
   files:
     - '**/*'
