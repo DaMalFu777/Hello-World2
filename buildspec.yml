@@ -7,6 +7,7 @@ phases:
   build:
     commands:
       - ng build --configuration production
+      - cp src/app/app.component.html dist/hello-word/app.component.html
 artifacts:
   files:
     - '**/*'
