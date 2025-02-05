@@ -1,14 +1,1 @@
-version: 0.2
-phases:
-  install:
-    commands:
-      - npm install -g @angular/cli
-      - npm install
-  build:
-    commands:
-      - ng build --configuration production
-      - cp src/app/app.component.html dist/hello-word/app.component.html
-artifacts:
-  files:
-    - '**/*'
-  base-directory: 'dist/hello-word'  # ← Replace with your actual dist folder name
+
